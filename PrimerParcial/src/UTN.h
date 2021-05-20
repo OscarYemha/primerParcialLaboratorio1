@@ -9,5 +9,7 @@
 #define UTN_H_
 
 int utn_getNumero(int* resultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+int utn_getNumeroB(char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+
 
 #endif /* UTN_H_ */
